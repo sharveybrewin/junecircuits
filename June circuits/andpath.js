@@ -1,4 +1,16 @@
+/*You are given Q queries and for each query, there is a Binary Tree with  vertices numbered 1 through N. For each  from  to , there is an edge between vertex  and vertex  (rounded down). Count number of paths such that bitwise AND of all nodes on that path is odd. A path will be considered valid if the number of nodes on that path is greater than 1.
+Note: The value of the nodes is equal to the indices.
 
+Input:
+The first line of the input contains a single integer Q denoting the number of queries. The description of Q queries follows: A single line having the value of N.
+
+Output:
+For each query, print a single line containing one integer — the number of paths such that bitwise AND of all nodes on that path is odd.
+
+Constraints:
+
+
+*/
 // Sample code to perform I/O:
 
 process.stdin.resume();
