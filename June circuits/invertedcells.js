@@ -1,3 +1,20 @@
+/*You are given a matrix . The matrix rows are numbered from  to  from top to bottom and the matrix columns are numbered from  to  from left to right. The cells of the field at the intersection of the  row and the column has coordinates .
+
+Every cell is empty or blocked. For every cell , determine if you change the state of cell (empty to blocked or blocked to empty), then is it possible to reach cell  from  by going only down and right.
+
+Input format
+
+The first line contains two space-separated numbers   denoting the number of rows and columns.
+Next  lines contain symbols. If the symbol on  is '#', then the cell is blocked. Otherwise, if the symbol is '.', then the cell is empty.
+Output format
+
+Print   lines where every line contains  numbers. Print 0 if it is impossible to reach . Otherwise, print 1.
+
+Constraints
+
+
+*/
+
 process.stdin.resume();
 process.stdin.setEncoding("utf-8");
 var stdin_input = "";
